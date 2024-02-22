@@ -76,7 +76,7 @@ fun NotesScreen(
             FloatingActionButton(onClick = {
                 state.title.value = ""
                 state.description.value = ""
-                navController.navigate("AddNoteScreen")
+                navController.navigate("addNotesScreen")
             }) {
                 Icon(imageVector = Icons.Rounded.Add, contentDescription = "Add new note")
             }
